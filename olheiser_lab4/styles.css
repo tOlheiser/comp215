@@ -1,0 +1,9 @@
+img { 
+  float: left;
+}
+
+section {
+  max-width: 500px;
+  padding-left: 1.3em;
+  float: left;
+}
