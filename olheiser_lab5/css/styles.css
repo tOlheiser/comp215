@@ -1,0 +1,37 @@
+/* Borders */
+.chess-header, .chess-board, .chess-moves, .chess-footer {
+  border: 1px solid black;
+}
+
+/* Positioning */
+.chess-header, .chess-footer {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.chess-board {
+  padding: 2em;
+}
+
+.board-row {
+  justify-content: center;
+}
+
+/* Square Styles */
+.white-square {
+  background-color: #EEEED2;
+}
+
+.dark-square {
+  background-color: #769656;
+}
+
+/* Within chess.grid, target all child divs with a class of row
+   Within those div.rows, target child divs with a class name that 
+   starts with 'col-' and set the width and height. 
+   https://www.w3schools.com/cssref/sel_attr_begin.asp
+   --> This prevents the cells from stretching. */
+.chess-board div.row div[class^="col-"] {
+  width: 50px;
+  height: 50px;
+}
