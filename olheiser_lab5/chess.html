@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <title>Bootstrap Assignment</title>
+  
+</head>
+<body>
+  <div class="container">
+    <!-- Single column for the Chess Game header-->
+    <div class="row chess-header">
+      <div class="col-xs-12">
+        <h1>Chess Game</h1>
+      </div>
+    </div><!-- End Chess Game Header Row -->
+
+    <div class="row"><!-- Houses two columns for Chess Game + Moves -->
+      <!-- Create a single column for the chess board-->
+      <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+        
+        <!-- That single column will have nested inside another row -->
+        <div class="row">
+          <!-- Which contains a column for the chess board-->
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 chess-board">
+            <!-- Filling out the chess grid -->
+            <div class="row board-row">
+              <div class="col-xs-1 white-square">&nbsp;</div>
+              <div class="col-xs-1 dark-square">&nbsp;</div>
+              <div class="col-xs-1 white-square">&nbsp;</div>
+              <div class="col-xs-1 dark-square">&nbsp;</div>
+              <div class="col-xs-1 white-square">&nbsp;</div>
+              <div class="col-xs-1 dark-square">&nbsp;</div>
+              <div class="col-xs-1 white-square">&nbsp;</div>
+              <div class="col-xs-1 dark-square">&nbsp;</div>
+            </div>
+            <div class="row board-row">
+              <div class="col-xs-1 dark-square">&nbsp;</div>
+              <div class="col-xs-1 white-square">&nbsp;</div>
+              <div class="col-xs-1 dark-square">&nbsp;</div>
+              <div class="col-xs-1 white-square">&nbsp;</div>
+              <div class="col-xs-1 dark-square">&nbsp;</div>
+              <div class="col-xs-1 white-square">&nbsp;</div>
+              <div class="col-xs-1 dark-square">&nbsp;</div>
+              <div class="col-xs-1 white-square">&nbsp;</div>
+            </div>
+            <div class="row board-row">
+              <div class="col-xs-1 white-square">&nbsp;</div>
+              <div class="col-xs-1 dark-square">&nbsp;</div>
+              <div class="col-xs-1 white-square">&nbsp;</div>
+              <div class="col-xs-1 dark-square">&nbsp;</div>
+              <div class="col-xs-1 white-square">&nbsp;</div>
+              <div class="col-xs-1 dark-square">&nbsp;</div>
+              <div class="col-xs-1 white-square">&nbsp;</div>
+              <div class="col-xs-1 dark-square">&nbsp;</div>
+            </div>
+            <div class="row board-row">
+              <div class="col-xs-1 dark-square">&nbsp;</div>
+              <div class="col-xs-1 white-square">&nbsp;</div>
+              <div class="col-xs-1 dark-square">&nbsp;</div>
+              <div class="col-xs-1 white-square">&nbsp;</div>
+              <div class="col-xs-1 dark-square">&nbsp;</div>
+              <div class="col-xs-1 white-square">&nbsp;</div>
+              <div class="col-xs-1 dark-square">&nbsp;</div>
+              <div class="col-xs-1 white-square">&nbsp;</div>
+            </div>
+            <div class="row board-row">
+              <div class="col-xs-1 white-square">&nbsp;</div>
+              <div class="col-xs-1 dark-square">&nbsp;</div>
+              <div class="col-xs-1 white-square">&nbsp;</div>
+              <div class="col-xs-1 dark-square">&nbsp;</div>
+              <div class="col-xs-1 white-square">&nbsp;</div>
+              <div class="col-xs-1 dark-square">&nbsp;</div>
+              <div class="col-xs-1 white-square">&nbsp;</div>
+              <div class="col-xs-1 dark-square">&nbsp;</div>
+            </div>
+            <div class="row board-row">
+              <div class="col-xs-1 dark-square">&nbsp;</div>
+              <div class="col-xs-1 white-square">&nbsp;</div>
+              <div class="col-xs-1 dark-square">&nbsp;</div>
+              <div class="col-xs-1 white-square">&nbsp;</div>
+              <div class="col-xs-1 dark-square">&nbsp;</div>
+              <div class="col-xs-1 white-square">&nbsp;</div>
+              <div class="col-xs-1 dark-square">&nbsp;</div>
+              <div class="col-xs-1 white-square">&nbsp;</div>
+            </div>
+            <div class="row board-row">
+              <div class="col-xs-1 white-square">&nbsp;</div>
+              <div class="col-xs-1 dark-square">&nbsp;</div>
+              <div class="col-xs-1 white-square">&nbsp;</div>
+              <div class="col-xs-1 dark-square">&nbsp;</div>
+              <div class="col-xs-1 white-square">&nbsp;</div>
+              <div class="col-xs-1 dark-square">&nbsp;</div>
+              <div class="col-xs-1 white-square">&nbsp;</div>
+              <div class="col-xs-1 dark-square">&nbsp;</div>
+            </div>
+            <div class="row board-row">
+              <div class="col-xs-1 dark-square">&nbsp;</div>
+              <div class="col-xs-1 white-square">&nbsp;</div>
+              <div class="col-xs-1 dark-square">&nbsp;</div>
+              <div class="col-xs-1 white-square">&nbsp;</div>
+              <div class="col-xs-1 dark-square">&nbsp;</div>
+              <div class="col-xs-1 white-square">&nbsp;</div>
+              <div class="col-xs-1 dark-square">&nbsp;</div>
+              <div class="col-xs-1 white-square">&nbsp;</div>
+            </div>
+          </div><!-- End chess board column-->
+        </div><!-- End chess board row -->
+      </div><!-- End grand chess board column -->
+      
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 chess-moves">
+        <h2>Moves</h2>
+      </div><!-- End Moves Column-->
+    </div><!-- End chess board + moves row-->
+
+    <!-- Single column for the Footer -->
+    <div class="row chess-footer">
+      <div class="col-xs-12">
+        <h3>Player A vs Player B</h3>
+      </div>
+    </div><!-- End Footer Row -->
+
+  </div><!-- End container -->
+  <!-- 
+    col-xs for extra small displays (screen width < 768px)
+    col-sm for smaller displayers (screen width > 768px) 
+    col-md for medium displays (screen width > 992px)
+    col-lg for larger displayer (screen width > 1200px)
+  -->
+</body>
+</html>
